@@ -1,0 +1,277 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Sector header */
+
+.header {
+    display: flex; 
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header__logo {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25%; 
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 20px;
+}
+
+/* Orden */
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container__title {
+    font-size: 50px;
+}
+
+/* Orden Columnas */
+
+.row {
+    display: flex;
+    gap: 20px; 
+}
+
+.col-4 {
+    width: 33.33%; 
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.67%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 55% 50%; 
+}
+
+.container__card--1 {
+    grid-column: 1;
+}
+
+.container__card--2 {
+    grid-column: 1;
+}
+
+/* Sector izquerdo pagina 1 */
+
+.container__card--img {
+    height: 324px;
+    width: 673px;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+}
+
+.container__card--smalltext {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.container__card--title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.container__card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container__card-footer--img {
+    border-radius: 75px 75px 75px 75px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+
+.container__card-footer--text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: 20px;
+}
+
+/* Sector derecho pagina 1 */
+
+.container__card--img2 {
+    width: 189px;
+    height: 145px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.container__card--text2 {
+    margin:0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container__card--title2 {
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.container__card-footer2 {
+    display: flex;
+    align-items: center;
+}
+
+.container__card-footer2--img {
+    border-radius: 75px 75px 75px 75px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+}
+
+.container__card-footer2--text {
+    margin:0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-top: 20px; 
+}
+
+/* Orden row 2 */
+
+.container__row--2 {
+    display: grid;
+    grid-template-columns: 55% 50%; 
+    gap: 20px; 
+}
+
+.container__card--card2 {
+    grid-column: 1; 
+}
+
+.container__card--2 {
+    grid-column: 1;
+    margin-left: 20%;
+}
+
+.card {
+    border: 0;
+}
+
+/* Sector izquerdo pagina 2 */
+
+.pag2-img1 {
+    width: 298px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+}
+
+/* Sector derecho pagina 2 */
+
+.container__card--img2-logo {
+    height: 87px;
+    object-fit: cover;
+    margin: 5%;
+}
+
+.container__card--card-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10%;
+    color: white;
+}
+
+.container__card--html {
+    background-color: rgba(233, 62, 48, 1);
+}
+
+.container__card--js {
+    background-color: rgba(247, 224, 24, 1);
+}
+
+.container__card--css {
+    background-color: rgba(41, 158, 213, 1);
+}
+
+.container__card--react {
+    background-color: rgba(41, 44, 51, 1);
+}
+
+.container__card--vue {
+    background-color: rgba(103, 199, 112, 1);
+}
+
+.container__card--bootstrap {
+    background-color: rgba(86, 61, 124, 1);
+}
+
+.container__card--card-sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5%;
+}
+
+/* Sector footer pagina */
+
+.footer {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.footer__logo {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25%; 
+}
+
+.container__card--box{
+    max-height: 120px;
+    border-radius: 5px; 
+    margin-bottom: 25px;
+}
+
+.footer__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footer__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: auto;
+}
